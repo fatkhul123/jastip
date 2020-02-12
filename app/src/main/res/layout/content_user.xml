@@ -1,0 +1,62 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_user">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <TextView
+                android:id="@+id/nameTextView1"
+                android:text="Name"
+                style="@style/profileDetailsTextMain"/>
+
+            <TextView
+                android:id="@+id/line1"
+                android:text="developer"
+                style="@style/profileDetailsMiniText"
+                android:layout_below="@+id/nameTextView1"/>
+        </RelativeLayout>
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <TextView
+                android:id="@+id/nameTextView2"
+                android:text="Kelas"
+                style="@style/profileDetailsTextMain"/>
+
+            <TextView
+                android:id="@+id/line2"
+                android:text="dd"
+                style="@style/profileDetailsMiniText"
+                android:layout_below="@+id/nameTextView2"/>
+
+        </RelativeLayout>
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <TextView
+                android:id="@+id/nameTextView3"
+                android:text="Email"
+                style="@style/profileDetailsTextMain"/>
+
+            <TextView
+                android:id="@+id/line3"
+                android:text="d"
+                style="@style/profileDetailsMiniText"
+                android:layout_below="@+id/nameTextView3"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
